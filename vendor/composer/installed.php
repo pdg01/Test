@@ -3,7 +3,7 @@
         'name' => '__root__',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '82f8266e716077458f7ed61e0f1687ccecbf3c8c',
+        'reference' => '4b300de53ed924af7e66822928856de032ac1848',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,10 +13,21 @@
         '__root__' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '82f8266e716077458f7ed61e0f1687ccecbf3c8c',
+            'reference' => '4b300de53ed924af7e66822928856de032ac1848',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'kus/php-image' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'da869e1dc54e1a39131e58246472971850c2893d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../kus/php-image',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
             'dev_requirement' => false,
         ),
         'phpmailer/phpmailer' => array(

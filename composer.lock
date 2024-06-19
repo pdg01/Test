@@ -4,8 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a47f36cf806527c5bf1dbe586354e7e0",
+    "content-hash": "9df7101c8ccf113044b3078b1e10985e",
     "packages": [
+        {
+            "name": "kus/php-image",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kus/php-image.git",
+                "reference": "da869e1dc54e1a39131e58246472971850c2893d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kus/php-image/zipball/da869e1dc54e1a39131e58246472971850c2893d",
+                "reference": "da869e1dc54e1a39131e58246472971850c2893d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.3.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/PHPImage.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Blake Kus",
+                    "email": "blakekus@gmail.com",
+                    "homepage": "http://www.blakek.us"
+                }
+            ],
+            "description": "Wrapper for PHP's GD Library for easy image manipulation",
+            "homepage": "http://blakek.us",
+            "keywords": [
+                "gd",
+                "image",
+                "php",
+                "text"
+            ],
+            "support": {
+                "issues": "https://github.com/kus/php-image/issues",
+                "source": "https://github.com/kus/php-image/tree/master"
+            },
+            "time": "2023-03-27T09:16:28+00:00"
+        },
         {
             "name": "phpmailer/phpmailer",
             "version": "v6.9.1",
@@ -163,7 +213,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "kus/php-image": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
